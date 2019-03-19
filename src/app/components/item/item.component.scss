@@ -1,0 +1,17 @@
+.card-container {    
+    :host {
+        width: 100%;
+    }
+    ion-icon {
+        margin-right: 2px;
+    }
+    .sub-title {
+        color: rgb(144, 253, 18);
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .title {
+        font-size: 15px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,13 @@
+<div class="items-container">
+  <ion-list>
+    <ion-item *ngFor="let item of items">
+      <app-item [item]="item"></app-item>
+    </ion-item>
+  </ion-list>
+  <div *ngIf="items && items.length === 0">
+   <h3>Unfortunately, No items yet.</h3>
+  </div>
+  <div *ngIf="!items">
+    chill brava...
+  </div>
+</div>

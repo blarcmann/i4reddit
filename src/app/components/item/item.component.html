@@ -1,0 +1,26 @@
+<div class="card-container">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>
+        <span class="sub-title">
+          <ion-icon name="person"></ion-icon>
+          {{ item.by }}
+        </span>
+      </ion-card-subtitle>
+      <ion-card-title><span class="title">{{ item.title }}</span></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="body-data">
+        <span>
+          <ion-icon name="bulb"></ion-icon>
+          {{ item.score }}
+        </span>
+        <span>
+          <ion-icon name="time"></ion-icon> 
+          {{ item.time | timeAgo }} ago
+        </span>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</div>
